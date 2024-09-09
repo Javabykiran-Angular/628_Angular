@@ -1,0 +1,37 @@
+				Welcome To Angular Module 
+				  Sumit Raokhande
+
+- B.E.Electronics, KBP satara
+- M.Tech Electronics, Walchand College Sangli
+- C-Dac Wimc , Sunbeam pune
+- worked as Mobile Application developer at tivre business solution
+- worked on J2ME,Symbian,Windows Mobile,Reaserach Motion
+- Worked as Android developer at veetron 
+- Live android application prasieo,autohub,garage
+- Worked as JDE Developer of Oracle Product
+- Worked as OpenSDK developer
+- work as angular developer
+- work on google cloud & docker 
+
+Git Hub Repo => Download code stuff from here 
+https://github.com/Javabykiran-Angular/628_Angular.git
+
+- Duration 40 to 50 hrs 
+- Daily 2hr from mon to frid 1.30PM 
+- Recording(portal) + Code (git hub )
+- My Expectation From U 
+	- All OOPS Concept 
+	- Basics of HTML & CSS 
+	- Basics of JS (optional)
+- Angular FreamWork 
+	- We learn typescript in this freamwork whenver we required 
+	- Overview of Bootstrap 
+	- Basic to Advanced of Angular FreamWork.
+- Full Stack Project 
+- All Interview Question regarding Angular will send you
+- S/w Steup 
+ 
+
+
+
+
