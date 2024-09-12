@@ -1,0 +1,22 @@
+<p>propertybinding works!</p>
+
+<!-- 
+- To bind ur property dynamically to its attribute/directive/custom attribute
+
+ - to keep property type as it is 
+ - U can apply any attribute of html tags 
+ syntax => [attribute name/directive/custom attribute]="propertyName"
+-->
+ <input type="text" [value]="name" placeholder="Enter the name">
+<hr>
+<div hidden=" {{isHidden}} ">
+    Display the data using string interpolation 
+</div>
+
+<div hidden=" {{isHidden}} ">
+    Display the data using string interpolation 
+</div>
+
+<div [hidden]="isHidden">
+    Display the data using Property Binding 
+</div>
