@@ -1,0 +1,18 @@
+<p>eventbinding1 works!</p>
+
+<!-- syntax
+    (eventName)="eventHandler"
+    - U can apply any Html tag 
+-->
+
+<button (click)="onClick()" >Click</button><br><br>
+
+<img src="../../assets/bg12.jpg" alt="" (click)="onImage()" title="On Image Click " >
+<br><br>
+
+<input #myinput type="text" placeholder="Enter the Name"> <br><br>
+<button (click)="onSend(myinput)" >Send</button>
+<br><br>
+
+<input #myinput1 type="text" placeholder="Enter the Name"> <br><br>
+<button (click)="onSend1(myinput1.value)" >Send</button>

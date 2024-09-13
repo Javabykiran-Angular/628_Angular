@@ -1,0 +1,56 @@
+Last Lecture Agenda
+1 Property Binding
+	<input [value]="name">
+	.ts 
+	name:string='....'
+	
+	<div hidden=" {{isHidden}} ">
+	...
+	</div>
+	
+	<div [hidden]=" isHidden ">
+	...
+	</div>
+	
+	.ts 
+	isHidden:boolean=false;
+	
+2 Style Binding
+	<h2 [style.color]="mycolor"> 
+	<h2 [style.color]="rating<4?'red':'green'"> 
+	<div [ngStyle]="jsonObj" >
+	.ts 
+	mycolor:string='red';
+	
+	jsonObj={
+		color:'red',
+		fontFamily:'...',
+		"font-size":'32px'
+	}
+
+3 Class binding 
+	<h2 [class]="myclass" >
+	<h2 [class.danger]="rating<4" >
+	
+	.ts 
+	
+	myclass:string='success';
+	
+
+
+summary & Interview Questions
+1 What is Property Binding
+2 What is Style Binding
+
+Today's Lecture Agenda
+1 Class binding 
+ - ngClass
+2 Event Binding
+	- Data is flow from view to component
+3 Click Event
+	- It is inbuilt event given by angular 
+4 Template Ref Variable
+
+summary & Interview Questions
+1 How to use Class Binding
+2 Explain event Binding
