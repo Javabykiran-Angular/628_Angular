@@ -1,0 +1,23 @@
+<p>eventbinding2 works!</p>
+
+<label for="">Number1:: &nbsp;&nbsp;</label>
+<input #num1 type="text" class="form-control w-25" placeholder="Enter the Num1"><br><br>
+<label for="">Number2:: &nbsp;&nbsp;</label>
+<input #num2 type="text" class="form-control w-25" placeholder="Enter the Num2"><br><br>
+<button (click)="onAddition(num1.value,num2.value)" class="btn btn-success">Addition</button><br><br>
+
+<input  type="text" 
+[value]="result"
+class="form-control w-25" placeholder="Result">
+<hr>
+
+<!-- Two Way Data Binding 
+    - U will get updatated data into the property
+    - u can apply any html tag 
+    - ngModel => attribute directive 
+    - We have to import FormsModule in app.module.ts file of its import section 
+    - we have to use a notation i.e banana in the box notation 
+    - [()]
+    - [(ngModel)]="propertyName"
+-->
+    <input type="text" [(ngModel)]="name" class="form-control w-25" placeholder="Enter the name"> {{name}}

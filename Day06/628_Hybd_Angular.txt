@@ -1,0 +1,57 @@
+Last Lecture Agenda
+1 Class binding 
+ - ngClass
+ <div [ngClass]="jsonObj">
+	
+	.ts 
+	jsonObj={
+		'success':!this.isError,
+		'danger':this.isError,
+		'special':this.isSpecial
+	}
+2 Event Binding
+	- Data is flow from view to component
+	
+3 Click Event
+
+	- It is inbuilt event given by angular 
+	<button (click)="onClick()">
+	<img (click)="onImage()">
+	.ts 
+	onClick(){
+	...
+	}
+	
+	onImage(){
+	...
+	}
+4 Template Ref Variable
+	<input #inputname>
+	<button (click)="onSend(inputname)">
+	
+	<input #inputname1>
+	<button (click)="onSend1(inputname1.value)">
+	
+	.ts 
+	onSend(myinput:any){
+		..
+		myinput.value 
+		myinput.style,background="green"
+	}
+	
+	onSend1(myvalue:string){
+	....
+	}
+
+summary & Interview Questions
+1 How to use Class Binding
+2 Explain event Binding
+
+Today's Lecture Agenda
+1 Real time Example
+2 Two Way Data Binding 
+
+
+summary & Interview Questions
+1 What is Two Way Data Binding tech.
+2 Why we used template ref Variable?
