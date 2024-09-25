@@ -1,0 +1,56 @@
+Last Lecture Agenda
+1 Component Interaction
+	- u can send a data(string/number/boolean/json/array/array of object) to others component
+	- To establish parent-child relation 
+2 @Input()
+	- To send data from parent component to child component
+	- It is Property Level Decorator
+	parent.ts 
+	str=".."
+	
+	parent.html
+	<app-child1 [strData]="str" >
+	
+	child1.ts
+	@Input() strData:string="";
+	
+	child1.html
+	{{strData}}
+	
+	
+3 @Output()
+	- To send data from  child component to parent component
+	parent.ts
+	strdataReceived:string='';
+	
+	{{strdataReceived}}
+	
+	parent.html<app-child2 (strEvent)="strdataReceived=$event" > 
+	
+	child2.ts 
+	
+	@Output() strEvent=new EventEmitter();
+	str:string='...'
+	
+	onSend(){
+		this.strEvent.emit(this.str)
+	}
+	
+
+summary & Interview Questions
+1 What is component interaction
+2 How to achieve component interaction
+
+Today's Lecture Agenda
+1 Pipe
+	- It is used to transform ur data without changing its original value 
+2 Inbuilt Pipe 
+	
+
+summary & Interview Questions
+1 What is Pipe 
+2 Explain some pipe in angular?
+3 How to Create Custom Pipe ?
+
+
+ 
