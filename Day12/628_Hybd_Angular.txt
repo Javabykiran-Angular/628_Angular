@@ -1,0 +1,112 @@
+Last Lecture Agenda
+1 @Pipe 
+2 PipeTransform
+3 transform(value:any,...item:any[])
+
+	ng g p summary 
+	
+	@Pipe({
+		name:"summary"
+	})
+	export class SummaryPipe implements PipeTransform{
+		
+			transform(value:any,start:number=0,end:number=15){
+			
+				let temp=(<string> value);
+				
+				return  temp.substring(start,end)+"...";
+			
+			}
+	}
+	
+	custom.component.html
+	
+	<h2> {{strDetails | summary}}</h2>
+	<h2> {{strDetails | summary:0:25}}</h2>
+	
+	
+
+
+summary & Interview Questions
+1 How to Create Custom Pipe?
+
+
+Today's Lecture Agenda
+1 Http Methods
+	1 get => to fetch a data from backend server 
+	2 post => to send a data to backend server 
+	3 put => to update a particular data 
+	4 delete => to delete a particular data 
+2 Http Request & Http Response
+	Http Request => head + body 
+		1 http head 
+			- ip 
+			- Date 
+			- HTTP protocol version 
+			- Http method 
+			- Content Type 
+				- image 
+				- video 
+				- audio 
+				- Application json
+				- text/html 
+				- PDF 
+			- Auth Token 
+			- server address 
+		2 Request Body 
+			- Data 
+				1 json format 
+				2 text/html 
+				3 XML format (outdated)
+				
+		Http Response
+		1 Response Header 
+			- ip 
+			- Date 
+			- HTTP protocol version 
+			- Http method 
+			- Content Type 
+				- image 
+				- video 
+				- audio 
+				- Application json
+				- text/html 
+				- PDF 
+			- Auth Token 
+			- server address 
+			- Status code 
+				1 2xx => 200-299 => Success/Ok 
+				2 3xx => Redirection => 300-399
+				3 4xx => Client Error => 400-499 
+				4 5xx => Server side Error => 500-599 
+		2 Response Body 
+			Data 
+				1 json format 
+				2 text/html 
+				3 XML format (outdated)
+
+3 HttpClientModule
+		=> Import in app.module.ts file => import section under 
+		=> we have to use its service => HttpClient 
+	
+4 https://jsonplaceholder.typicode.com/posts
+	- It is fake URL/ fake service 
+	- It can not store ur data into database but it gives a response of ur request 
+
+
+http://localhost:8080/api/apiname
+
+5 Observabale
+
+https://javabykiran.com/what-is-observable-8-powerful-points-by-sumit/#:~:text=Key%20Points%20of%20What%20is%20Observable,-It%20emits%20multiple&text=It%20has%20different%20operators%20such,chat%20applications%20or%20live%20dashboards.
+
+summary & Interview Questions
+ 1 Which are Http Methods?
+ 2 How to connect Angular with backend server?
+ 3 Write down the steps to connect your backend server?
+ 4 Explain the Observabale?
+ 5 What is Observabale?
+
+
+
+ 
