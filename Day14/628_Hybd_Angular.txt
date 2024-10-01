@@ -1,0 +1,22 @@
+Last Lecture Agenda
+1 Post method
+2 put method 
+ 
+
+summary & Interview Questions
+1 How to send data from Angular to backend server?
+2 How to Update any particular data in Angular?
+
+
+Today's Lecture Agenda
+1 Put method 
+2 Delete Method
+3 Error Handling
+
+
+summary & Interview Questions
+1 How to Update any particular data in Angular?
+2 How to delete any particular Record 
+3 How to Handle Errors in Angular
+
+ 
