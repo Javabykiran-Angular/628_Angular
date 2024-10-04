@@ -1,0 +1,32 @@
+Last Lecture Agenda
+1 Put method 
+2 Delete Method
+3 Error Handling
+
+summary & Interview Questions
+1 How to Update any particular data in Angular?
+2 How to delete any particular Record 
+3 How to Handle Errors in Angular
+
+Today's Lecture Agenda
+1 Routing
+	- navigate from one page to another 
+2 Routing Steps
+	1 Configure the Route 
+	2 use <router-outlet> => Component directive 
+	3 establish the link/navigate between the component 
+3 routerLink
+4 wild cart operator
+5 empty path
+6 Send parameter
+
+
+summary & Interview Questions
+1 What is Routing
+2 How to implement routing?
+3 what is purpose of routerLink?
+4 what is use of wild cart operator?
+5 What is empty path?
+
+
+ 
