@@ -1,0 +1,37 @@
+Last Lecture Agenda
+1 Routing
+	- navigate from one page to another 
+2 Routing Steps
+	1 Configure the Route 
+	2 use <router-outlet> => Component directive 
+	3 establish the link/navigate between the component 
+3 routerLink
+4 wild cart operator
+5 empty path
+6 Send parameter
+
+
+summary & Interview Questions
+1 What is Routing
+2 How to implement routing?
+3 what is purpose of routerLink?
+4 what is use of wild cart operator?
+5 What is empty path?
+
+Today's Lecture Agenda
+1 Routing using navigate method
+	- It works on .ts file component file 	
+2 Lazy Loading
+	- whenever u required on that time u can load ur resourse 
+3 Create Custom Module/ feature module 
+4 Create Custom routing file
+
+
+summary & Interview Questions
+1 What is Routing
+2 How to send parameter to component
+3 What is Lazy Loading?
+4 How to use navigate method
+
+
+ 
