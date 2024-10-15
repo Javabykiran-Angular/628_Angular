@@ -1,0 +1,46 @@
+<app-header></app-header>
+<br>
+<div class="container-fluid">
+
+    <div>
+        <button routerLink="/addemp" class="btn btn-success">Add Employee</button>
+    </div>
+    <br>
+
+<table class="table table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>Sr No.</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Status</th>
+            <th>Created By</th>
+            <th>Created Date</th>
+            <th>Updtated By</th>
+            <th>Updtated Date</th>
+            <th>Country</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let item of empData;index as i">
+            <td> {{i+1}} </td>
+            <td> <a [routerLink]="['/details',item.id]">{{item.name}}</a>  </td>
+            <td> {{item.department}} </td>
+            <td><h4><span
+                    [ngClass]="{
+                        'badge':true,
+                        'rounded-pill':true,
+                        'bg-success':item.status.toLowerCase()==='active',
+                        'bg-warning':item.status.toLowerCase()==='inactive',
+                        'bg-danger':item.status.toLowerCase()==='suspend'
+                    }"
+                >{{item.status}}</span></h4></td>
+            <td> {{item.createdBy}} </td>
+            <td> {{item.ceratedDate | date}} </td>
+            <td> {{item.updatedBy}} </td>
+            <td> {{item.updatedDate | date:"dd-MM-yyyy"}} </td>
+            <td> {{item.country.cname}} </td>
+        </tr>
+    </tbody>
+</table>
+</div>
